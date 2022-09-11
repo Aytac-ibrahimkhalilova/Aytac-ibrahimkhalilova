@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahimkhalilova Aytac | Front-end developer</title>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Ibrahimkhalilova Aytac | Front-end developer">
+    <!--Fonts Google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width: 678px)" href="css/tablet.css">
+
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="dark-blue" style="background: darkblue;">
+        <div class="container">
+            <nav id="navbar">
+            <h1 class="heading-small">Ibrahimkhalilova Aytac</h1>
+            <ul>
+                <li><a href="#home">Ana Sehife</a></li>
+                <li><a href="#proqram">Proqramlar</a></li>
+                <li><a href="#courses">Kurslar</a></li>
+                <li><a href="#contact">Elaqe</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="./image/imgg.jpg" alt="Aytac" style="width: 500px;">
+        <div class="name text-center">
+            <h2 class="heading-big">Aytac Ibrahimkhalilova</h2>
+            <p>Informasiya Texnologiyalari| Front-end Developer </p>
+        </div>
+        <a href="#contact" class=" btn btn-dark">Elaqe</a>
+    </section>
+    <section id="proqram" class="dark-blue">
+        <h3 class="text-center heading-medium">Proqramlar</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, eos?</p>
+            </article>
+            <article class="item">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, eos?</p>
+            </article>
+            <article class="item">
+                <i class="fa-brands fa-square-js"></i>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, eos?</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="courses">
+        <h3 class="text-center heading medium">Kurslar</h3>
+
+        <div class="container">
+            <div class="courses">
+                <!--HTML kursu-->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="./image/html.png" alt="HTML" style="width: 200px;">
+                        <span>50% Endirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                        HTML kursu
+                        </div>
+                        <div class="description">HTML kursu | Sifirdan HTML oyrenin</div>
+                        <div class="instructor">Ibrahimkhalilova Aytac, Front-end developer</div>
+                        <div class="rating">4.5 | (5000 ses verme)</div>
+                    </div>
+                </div>
+                <!--CSS kursu-->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="./image/css.png" alt="CSS" style="width: 200px;">
+                        <span>30% Endirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                        CSS kursu
+                        </div>
+                        <div class="description">CSS kursu | Sifirdan CSS oyrenin</div>
+                        <div class="instructor">Ibrahimkhalilova Aytac, Front-end developer</div>
+                        <div class="rating">5.0 | (5000 ses verme)</div>
+                    </div>
+                </div>
+                <!--JavaScript kursu-->
+                <div class="course">
+                    <div class="course-img">
+                        <img src="./image/js.png" alt="JavaScript" style="width: 200px;">
+                        <span>20% Endirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                        JavaScript kursu
+                        </div>
+                        <div class="description">JavaScript kursu | Sifirdan JavaScript oyrenin</div>
+                        <div class="instructor">Ibrahimkhalilova Aytac, Front-end developer</div>
+                        <div class="rating">6.5 | (5000 ses verme)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="dark-blue">
+
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium" style="color: white;">Menimle elaqe</h4>
+
+                <div class="form-group">
+                    <label for="name">Ad</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Ad">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Mesajiniz..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gonder</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
